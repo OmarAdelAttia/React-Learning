@@ -175,3 +175,25 @@ const [primaryGenre, secondaryGenre] = genres;
 console.log(`This book is about ${primaryGenre} & ${secondaryGenre}.`);
 
 */
+
+/* 19. Rest/Spread Operator
+
+const book = getBook(1);
+
+// Data with destructuring
+const { genres } = book;
+
+// Rest operator
+const [primaryGenre, secondaryGenre, ...otherGenres] = genres;
+console.log(`This book is also about ${otherGenres}.`);
+
+// Spread operator
+// to spread out the array and add new variable
+const newGenres = [...genres, "epic fantasy"];
+console.log(newGenres);
+
+// to spread out the object and add new variable or update an old one
+const updatedBook = { ...book, moviePublisherDate: "2001-12-19", pages: 1000 };
+console.log(updatedBook);
+
+*/
