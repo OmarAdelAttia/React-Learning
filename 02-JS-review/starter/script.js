@@ -212,3 +212,18 @@ const infoAboutTheBook = `${title} has ${pages} pages and under ${genres.join(
 console.log(infoAboutTheBook);
 
 */
+
+/* 21. Ternaries Instead of if/else Statements
+
+const book = getBook(1);
+
+// Data with destructuring
+const { title, pages, genres } = book;
+
+// Template Literals
+const infoAboutTheBook = `${title} has ${
+  pages > 1000 ? "more than 1k" : "1K or less"
+} pages and under ${genres.length > 5 ? "more than 5" : "5 "} categories`;
+console.log(infoAboutTheBook);
+
+*/
