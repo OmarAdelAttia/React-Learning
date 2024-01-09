@@ -197,3 +197,18 @@ const updatedBook = { ...book, moviePublisherDate: "2001-12-19", pages: 1000 };
 console.log(updatedBook);
 
 */
+
+/* 20. Template Literals
+
+const book = getBook(1);
+
+// Data with destructuring
+const { title, pages, genres } = book;
+
+// Template Literals
+const infoAboutTheBook = `${title} has ${pages} pages and under ${genres.join(
+  ", "
+)} categories`;
+console.log(infoAboutTheBook);
+
+*/
