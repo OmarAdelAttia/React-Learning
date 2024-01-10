@@ -352,3 +352,31 @@ const sortedBooks = books.slice().sort((a, b) => a.pages - b.pages);
 console.log(sortedBooks);
 
 */
+
+/* 29. Working With Immutable Arrays
+ 
+const books = getBooks();
+
+const newBook = {
+  id: 6,
+  title: "The Hobbit",
+};
+
+// 1. adding book object to array
+const booksAfterAdd = [...books, newBook];
+
+console.log(booksAfterAdd);
+
+// 2. Deleting book object from array
+const booksAfterDelete = booksAfterAdd.filter((book) => book.id != 5);
+
+console.log(booksAfterDelete);
+
+// 3. Updating book object in the array
+const booksAfterUpdate = booksAfterDelete.map((book) =>
+  book.id === 1 ? {} : book
+);
+
+console.log(booksAfterUpdate);
+
+*/
