@@ -334,3 +334,21 @@ const pagesAllBooks = books.reduce(
 console.log(pagesAllBooks);
 
 */
+
+/* 28. The Array sort Method
+
+const arr = [3, 6, 2, 9, 7, 8, 4];
+
+const sortedArr = arr.sort((a, b) => a - b);
+
+console.log(arr);
+
+console.log(sortedArr);
+
+const books = getBooks();
+
+const sortedBooks = books.slice().sort((a, b) => a.pages - b.pages);
+
+console.log(sortedBooks);
+
+*/
