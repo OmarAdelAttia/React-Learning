@@ -242,3 +242,27 @@ const infoAboutTheBook = `${title} has ${
 console.log(infoAboutTheBook);
 
 */
+
+/* 23. Short-Circuiting And Logical Operators: &&, ||, ??
+
+const book = getBook(1);
+
+// Data with destructuring
+const { title, pages, genres, hasMovieAdaptation } = book;
+
+// && returns the first falsy value
+console.log(true && "Some String"); // 'Some String'
+console.log("" && "Some String"); // Returns empty string because it is falsy
+console.log(hasMovieAdaptation && "This book has a movie"); // 'This book has a movie'
+
+// || returns the first true value
+console.log(true || "Some String"); // true
+console.log("" || "Some String"); // Returns 'Some String' because it is not falsy
+console.log(hasMovieAdaptation || "This book has a movie"); // true
+
+// ?? returns the first true value (its falsy values are null & undefined only)
+console.log(true ?? "Some String"); // true
+console.log("" ?? "Some String"); // Returns 'Some String' because it is not falsy
+console.log(hasMovieAdaptation ?? "This book has a movie"); // true
+
+*/
