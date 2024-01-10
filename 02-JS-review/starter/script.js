@@ -321,3 +321,16 @@ const adventureBooks = books
 console.log(adventureBooks);
 
 */
+
+/* 27. The Array reduce Method
+
+const books = getBooks();
+
+const pagesAllBooks = books.reduce(
+  (prevBook, book) => prevBook + book.pages,
+  0
+);
+
+console.log(pagesAllBooks);
+
+*/
