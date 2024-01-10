@@ -227,3 +227,18 @@ const infoAboutTheBook = `${title} has ${
 console.log(infoAboutTheBook);
 
 */
+
+/* 22. Arrow Functions
+
+const book = getBook(1);
+
+// Data with destructuring
+const { title, pages, genres } = book;
+
+// Template Literals
+const infoAboutTheBook = `${title} has ${
+  pages > 1000 ? "more than 1k" : "1K or less"
+} pages and under ${genres.length > 5 ? "more than 5" : "5 "} categories`;
+console.log(infoAboutTheBook);
+
+*/
