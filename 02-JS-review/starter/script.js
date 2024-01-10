@@ -266,3 +266,20 @@ console.log("" ?? "Some String"); // Returns 'Some String' because it is not fal
 console.log(hasMovieAdaptation ?? "This book has a movie"); // true
 
 */
+
+/* 24. Optional Chaining
+
+const book = getBook(3);
+
+function getTotalReviewCount(book) {
+  const goodreads = book.reviews.goodreads?.reviewsCount; // 49701
+  // if book.reviews.librarything.reviewsCount ===  undefined => set librarything to 0
+  const librarything = book.reviews.librarything?.reviewsCount ?? 0; // 0
+  console.log(goodreads);
+  console.log(librarything);
+  return goodreads + librarything; // 49701
+}
+
+console.log(getTotalReviewCount(book));
+
+*/
