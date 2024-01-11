@@ -380,3 +380,13 @@ const booksAfterUpdate = booksAfterDelete.map((book) =>
 console.log(booksAfterUpdate);
 
 */
+
+/* 30. Asynchronous JavaScript: Promises
+
+fetch("https://jsonplaceholder.typicode.com/todos")
+  .then((res) => res.json())
+  .then((data) => console.log(data));
+
+console.log("Hello World!");
+
+*/
