@@ -390,3 +390,19 @@ fetch("https://jsonplaceholder.typicode.com/todos")
 console.log("Hello World!");
 
 */
+
+/* 31. Asynchronous JavaScript: Async/Await
+
+const getToDos = async function () {
+  const res = await fetch("https://jsonplaceholder.typicode.com/todos");
+  const data = await res.json();
+  console.log(data);
+
+  return data;
+};
+
+getToDos();
+
+console.log("Hello World!");
+
+*/
